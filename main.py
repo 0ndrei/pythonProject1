@@ -34,4 +34,40 @@ print(a)'''
 '''a = [1,2,3,4,5]
 print(len(a))
 print(max(a))
-print(min(a))'''
+print(min(a))
+a.remove(2) #elimiarea obiectului de pe indexul specificat
+print(a)
+a.insert(3,8) #inserarea obiectului
+print(a)
+a.append(-3) #adugarea unei valori in lista
+print(a)
+a.reverse() #afisarea obiectelor invers
+print(a)
+a.sort() #sortarea
+print(a)
+a.pop() #eliminarea utimului obict din lista
+print(a)
+x = a.count(4)
+print(x)'''
+
+
+'''a = [1,2,3,4,5,4,4]
+a[0] = 10
+print(a)'''
+
+# tupluri
+tup1 = (1,2,3,4,5)
+#print(tup1[:])
+#print(tup1[:2])
+#print(tup1[2:])
+# tup[0] = 10 nu se modifica obectele unui tuplu
+'''tup2 = (8,9,7,-4)
+tup3 = tup1 + tup2
+print('Identificator tuplu 1: ', id(tup1))
+print('Identificator tuplu 3: ', id(tup2))
+print('Identificator tuplu 3: ', id(tup3))
+print('Continut tuplu 3: ', tup3)
+tup4  = (8,7,-4)
+print(tup4)
+del tup2
+print(tup2)'''
