@@ -71,3 +71,9 @@ tup4  = (8,7,-4)
 print(tup4)
 del tup2
 print(tup2)'''
+
+
+#Tema de casa
+invenatrul = {"scaune":33 ,"mese":22}
+total = list(invenatrul.values())
+print(sum(total))
